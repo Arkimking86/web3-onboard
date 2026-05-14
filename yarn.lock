@@ -3613,9 +3613,9 @@
   integrity sha512-0kELaGSIDBKvcgS4zkjz1PeddatrjYcmMWOlAuAPwAeccUrPHdUqo/J6LiymHHEiJT5NrF1UVwxY14f+fy4WQw==
 
 "@protobufjs/utf8@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
-  integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.1.tgz#eaee5900122c110a3dbcb728c0597014a2621774"
+  integrity sha512-oOAWABowe8EAbMyWKM0tYDKi8Yaox52D+HWZhAIJqQXbqe0xI/GV7FhLWqlEKreMkfDjshR5FKgi3mnle0h6Eg==
 
 "@ramp-network/ramp-instant-sdk@^4.0.5":
   version "4.0.7"
@@ -6897,6 +6897,24 @@
   version "2.23.1"
   resolved "https://registry.yarnpkg.com/@web3-onboard/core/-/core-2.23.1.tgz#47d4f086af0e743d9227b42cf70c23c0ad32d2c4"
   integrity sha512-a3dseMpoe7jBfWzyvTNsIhpOh5MncaOLps/83zsUi32oXhYOPz5vUlJuUOAUx8O6LHGZh3RkRQWAwBTf96qsFA==
+  dependencies:
+    "@web3-onboard/common" "^2.4.1"
+    bnc-sdk "^4.6.7"
+    bowser "^2.11.0"
+    eventemitter3 "^4.0.7"
+    joi "17.9.1"
+    lodash.merge "^4.6.2"
+    lodash.partition "^4.6.0"
+    nanoid "^4.0.0"
+    rxjs "^7.5.5"
+    svelte "^3.49.0"
+    svelte-i18n "^4.0.1"
+    viem "2.12.0"
+
+"@web3-onboard/core@2.24.0":
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/@web3-onboard/core/-/core-2.24.0.tgz#e31f202b557c51c05f9a8a298552e3143d152017"
+  integrity sha512-aFfao9ln5DMW9QSTzXHP4ymuFoJslBs3TrYR+z+5B6/lPMK1CUSe5wmPeFVaqTXs4gIGkyWByuznb9LUq/Vong==
   dependencies:
     "@web3-onboard/common" "^2.4.1"
     bnc-sdk "^4.6.7"
